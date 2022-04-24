@@ -2,6 +2,7 @@
 console.log('hello');
 
 import './circus.css'
+import './sakura.css'
 
 import { Remarkable } from 'remarkable';
 import hljs from 'highlight.js'; // https://highlightjs.org/
