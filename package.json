@@ -1,0 +1,27 @@
+{
+  "name": "autolib.dev",
+  "version": "1.0.0",
+  "description": "this is primarily a bunch of markdown files and a framework in which to view them.",
+  "main": "build.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auto-lib/www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auto-lib/www/issues"
+  },
+  "homepage": "https://github.com/auto-lib/www#readme",
+  "dependencies": {
+    "highlight.js": "^11.5.1",
+    "remarkable": "^2.0.1"
+  }
+}

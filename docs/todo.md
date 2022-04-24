@@ -103,6 +103,18 @@ editor that picks these up will be essential -
 we want to be able to see problems as we write
 them, not during runtime.
 
+it might be better to have a separate object
+that just defines a function for each variable.
+that way we don't need a complicated format
+determining the logic:
+
+```js
+let checks = {
+    x: v => _ => typeof v === 'integer',
+    y: v => - => typeof v === 'integer' && v > _.x
+}
+```
+
 ## fuzzing
 
 another testing technique, might be good to
